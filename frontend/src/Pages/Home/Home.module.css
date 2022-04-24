@@ -1,0 +1,27 @@
+/* module.css helps is solving the problem of conflicts in react as this css file will only be applicable to the home page and not other. So having same className is no more a issue  */
+
+.text{
+    font-size: 22px;
+    line-height: 1.6;
+    color: #D0EFFF;
+}
+
+.link{
+    position: relative;
+    top:3rem;
+    left: 1rem;
+}
+.link span{
+    padding: 1rem 1rem;
+}
+.linkStyle{
+    text-decoration: none;
+    color: #2A9DF4;
+    font-weight: bold;
+}
+.cardWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+}
