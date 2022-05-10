@@ -1,0 +1,10 @@
+.cardWrapper {
+    composes: cardWrapper from '../../../Global.module.css';
+}
+
+.buttonPara {
+    composes: buttonPara from '../../../Global.module.css';
+}
+.actionButtonWrap{
+    margin-top: 20px;
+}

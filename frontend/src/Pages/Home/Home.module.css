@@ -9,7 +9,6 @@
 .link{
     position: relative;
     top:3rem;
-    left: 1rem;
 }
 .link span{
     padding: 1rem 1rem;
@@ -18,6 +17,12 @@
     text-decoration: none;
     color: #2A9DF4;
     font-weight: bold;
+}
+.linkStyle:hover{
+    color:#000;
+}
+.linkStyle:visited{
+    color:rgb(142, 199, 252);
 }
 .cardWrapper{
     display: flex;

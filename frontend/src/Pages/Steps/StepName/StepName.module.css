@@ -1,0 +1,3 @@
+.buttonPara {
+    composes: buttonPara from '../../../Global.module.css';
+}

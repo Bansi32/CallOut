@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import StepPhoneEmail from '../Steps/StepPhoneEmail/StepPhoneEmail';
-import styles from './Login.module.css';
+import styles from './Auth.module.css';
 import StepOtp from '../Steps/StepOtp/StepOtp';
 
 const steps = {
@@ -8,7 +8,7 @@ const steps = {
     2: StepOtp
 }
 
-export default function Login() {
+export default function Auth() {
     const [step, setStep] = useState(1);
   const Step = steps[step];
   

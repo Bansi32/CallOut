@@ -8,6 +8,10 @@ export default function Navigation() {
         <img src="/images/Emoji.png" alt="logo" />
         <span className={styles.logoText}>Call Out</span>
       </Link>
+      <div className="links">
+        <Link className={styles.blogs} to="/blogs">Blogs</Link>
+        <Link className={styles.logout} to='/logout'>Logout</Link>
+      </div>
     </nav>
   )
 }

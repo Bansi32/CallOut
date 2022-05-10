@@ -1,0 +1,17 @@
+### send otp
+POST http://localhost:5000/api/send-otp HTTP/1.1
+Content-Type:application/json 
+
+{
+    "phone":"+917972676610"
+}
+
+###verify otp
+POST http://localhost:5000/api/verify-otp HTTP/1.1
+Content-Type: application/json
+
+{
+    "phone":"+917972676610",
+    "otp":4170,
+    "hash":"822651b736cbd0be48a3ebd68d524e81bf09c71e211f8ebd2a2634651ed07f58.1651595552328"
+}
