@@ -1,12 +1,13 @@
-.cardWrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 6rem;
-}
 .buttonPara {
     color: #2B2B2B;
     width: 70%;
     margin: 0 auto;
     margin-top: 60px;
 }
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
